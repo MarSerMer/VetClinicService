@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetClinicService", "VetClinicService\VetClinicService.csproj", "{5CC5621C-1DD4-4535-9449-1B4BC36CA071}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VetClinicService", "VetClinicService\VetClinicService.csproj", "{5CC5621C-1DD4-4535-9449-1B4BC36CA071}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetClinicConsole", "VetClinicConsole\VetClinicConsole.csproj", "{28A45B42-FF59-4321-98CB-9596B7C4D3DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VetClinicConsole", "VetClinicConsole\VetClinicConsole.csproj", "{28A45B42-FF59-4321-98CB-9596B7C4D3DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetClinicServiceTests", "VetClinicServiceTests\VetClinicServiceTests.csproj", "{01800523-8A33-4E9B-B3AF-F007F0ECDAA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{28A45B42-FF59-4321-98CB-9596B7C4D3DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28A45B42-FF59-4321-98CB-9596B7C4D3DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28A45B42-FF59-4321-98CB-9596B7C4D3DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01800523-8A33-4E9B-B3AF-F007F0ECDAA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01800523-8A33-4E9B-B3AF-F007F0ECDAA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01800523-8A33-4E9B-B3AF-F007F0ECDAA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01800523-8A33-4E9B-B3AF-F007F0ECDAA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

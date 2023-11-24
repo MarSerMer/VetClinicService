@@ -24,6 +24,19 @@ namespace VetClinicService.Controllers
         [HttpPost("create", Name = "CreatePet")]
         public ActionResult<int> Create([FromBody] CreatePetRequest createRequest)
         {
+            if (createRequest.ClientId < 0) 
+                return Ok(new
+                {
+                    ErrCode = -21,
+                    ErrMessage = "Хозяин животного указан неверно."
+                });
+            if (string.IsNullOrEmpty(createRequest.Name))
+                return Ok(new
+                {
+                    ErrCode = -22,
+                    ErrMessage = "Не указано имя животного."
+                });
+
             Pet pet = new Pet();
             pet.ClientId = createRequest.ClientId;
             pet.Name = createRequest.Name;
